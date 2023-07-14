@@ -1,0 +1,12 @@
+name: PR Checker
+
+on:
+  push:
+
+jobs:
+  hello_world:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Output Hello World
+      run: echo "hello world"
